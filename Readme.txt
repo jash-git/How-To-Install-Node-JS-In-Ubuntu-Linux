@@ -12,8 +12,8 @@ $sudo apt-get install python-software-properties
 $curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 $sudo apt-get update
 $sudo apt-get install -y nodejs
-$nodejs -w
-$npm -w
+$nodejs -v
+$npm -v
 $gedit app.js
 	const http = require('http');
 
